@@ -922,51 +922,47 @@ body {
     display: flex;
 }
 
-/* .like1{ 
-    position: absolute; 
- width: 20px; 
- height: 20px; 
- left: 400px; 
- top: 50px; 
- 
- border-radius: 50%; 
- background-color: rgb(126, 121, 121);
-} 
-  
-.like2{ 
-    position: absolute; 
-    width: 20px; 
-    height: 20px; 
-    left: 400px; 
-    top: 50px; 
+.start{ 
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 420px;
+    top: 20px;
+    background:no-repeat;
     
-    border-radius: 50%; 
-    background-color: rgb(126, 121, 121);  
-} 
-   
-.like3{ 
-    position: absolute; 
-    width: 20px; 
-    height: 20px; 
-    left: 400px; 
-    top: 50px; 
-    
-    border-radius: 50%; 
-    background-color: rgb(126, 121, 121);
-
-} 
-
-.like4{ 
-    position: absolute; 
-    width: 20px; 
-    height: 20px; 
-    left: 400px; 
-    top: 50px; 
-    
-    border-radius: 50%; 
-    background-color: rgb(126, 121, 121);
+    background-image: url(.//LikeOff.png); 
 }
 
-.hide{ 
-    background-image: url(.//LikeOn.png); 
-} */
+.start1{ 
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 420px;
+    top: 20px; 
+    background:no-repeat;
+    
+    background-image: url(.//LikeOff.png);  
+   } 
+   .start2{ 
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 420px;
+    top: 20px;
+    background:no-repeat;
+    
+    background-image: url(.//LikeOff.png);  
+   } 
+   .start3{ 
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 420px;
+    top: 20px;
+    background:no-repeat;
+     
+    background-image: url(.//LikeOff.png);  
+   } 
+   .hide{ 
+    background-image: url(/LikeOn.png);
+   }
