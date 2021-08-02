@@ -25,23 +25,78 @@
             <div class="searchBarDiv">
                 
                 <div class="searchBar1">
+                     <h2  class="searchBarText1">Москва</h2>
                     <img  class="searchBarImg1" src=".//Location.png" alt="Локация">
-                    <h2  class="searchBarText1">Москва</h2>
-                </div>
+                </div> 
+
+                 <!-- <div class="line1"></div> -->
 
                 <div class="searchBar2">
-                    <img class="searchBarImg2" src=".//Grafick.png" alt="График">
-                    <h2 class="searchBarText2">Гибкий график</h2>
+                    <button onClick="myFunction()" class="searchBarButton1">
+                        <img class="searchBarImg2" src=".//Grafick.png" alt="График">
+                        <h2 class="searchBarText2">Гибкий график</h2>
+                    </button>
+
+                    <div id="myDropdown"class="dropdownContent">
+                        <input type="radio" id="FullDay" name="Grafick" value="FullDay" 
+                        class="FullDay" checked>
+                        <input type="radio" id="FlexSchedule" name="Grafick" value="FlexSchedule" 
+                        class="FlexSchedule">
+                        <input type="radio" id="DistantWork" name="Grafick" value="DistantWork" 
+                        class="DistantWork">
+                        <label for="FullDay" class="dropdownText1">Полный день</label>
+                        <label for="FlexSchedule" class="dropdownText2">Гибкий график</label>
+                        <label for="DistantWork" class="dropdownText3">Удаленная работа</label>
+                    </div>
                 </div>
+
+                
+                
 
                 <div class="searchBar3">
-                    <img class="searchBarImg3" src=".//Employed.png" alt="Занятость">
-                    <h2 class="searchBarText3">Частисная занятость</h2>
+                    <button  onclick="myFunction1()"  class="searchBarButton2">
+                        <img class="searchBarImg3" src=".//Employed.png" alt="Занятость">
+                        <h2 class="searchBarText3">Частисная занятость</h2>
+                    </button>
+
+                    <div class="dropdownContent2" id="myDropdown1">
+                        <input type="radio" id="FullBusy" name="Busyness" value="Busyness1" 
+                        class="FullBusy" checked>
+                        <input type="radio" id="PartTime" name="Busyness" value="Busyness2" 
+                        class="PartTime">
+                        <input type="radio" id="ProjectWork" name="Busyness" value="Busyness3" 
+                        class="ProjectWork">
+                        <input type="radio" id="Probation" name="Busyness" value="Busyness4" 
+                        class="Probation">
+                        <label for="FullBusy" class="BusynessText1">Полная занятость</label>
+                        <label for="PartTime" class="BusynessText2">Частичная занятость</label>
+                        <label for="ProjectWork" class="BusynessText3">Проектная работа</label>
+                        <label for="Probation" class="BusynessText4">Стажровка</label>
+                    </div>
                 </div>
 
+                
+
                 <div class="searchBar4">
-                    <img class="searchBarImg4"  src=".//Practice.png" alt="Опыт">
-                    <h2 class="searchBarText4">От 1 года до 3 лет </h2>
+                    <button onclick="myFunction2()" class="searchBarButton3">
+                        <img class="searchBarImg4"  src=".//Practice.png" alt="Опыт">
+                        <h2 class="searchBarText4">От 1 года до 3 лет </h2>
+                    </button>
+
+                    <div class="dropdownContent3" id="myDropdown2">
+                        <input type="radio" id="NoExp" name="Exp" value="Exp1"
+                        class="NoExp" checked>
+                        <input type="radio" id="1or3YearExp" name="Exp" value="Exp2"
+                        class="Exp1">
+                        <input type="radio" id="3or6YearsExp" name="Exp" value="Exp3"
+                        class="Exp2">
+                        <input type="radio" id="6YersMoreExp" name="Exp" value="Exp4"
+                        class="Exp3">
+                        <label for="NoExp" class="ExpText1">Нет опыта</label>
+                        <label for="1or3YearExp" class="ExpText2">От 1 года до 3 лет</label>
+                        <label for="3or6YearsExp" class="ExpText3">От 3 до 6 лет</label>
+                        <label for="6YersMoreExp" class="ExpText4">Больше 6 лет</label>
+                    </div>
                 </div>
 
                 <div class="searchBar5">
@@ -52,10 +107,11 @@
 
                 <div class="searchBar6">
                     <h2 class="searchBarText6">Поиск</h2>
-                </div>
+                </div> 
                     
             </div>
         </section>
+   
 
         <section class="content">
             <div class="vacansy1">
@@ -94,7 +150,7 @@
 
                 <div class="HTML5">
                     <p class="textHTML5">HTML5</p>
-                </div>
+                </div> 
 
                 <!-- <div class="like">
                     <img src=".//LikeOn.png"> 
@@ -279,9 +335,12 @@
             </div>
         </section>
 
-        <script src=".//script.js"> </script>
+        <script src="./script.js"> </script>
         
     </body>
 
     
 </html>
+
+
+
